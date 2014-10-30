@@ -19,6 +19,7 @@
 		BE0BEA851A026FD800EFAA53 /* Alien.atlas in Resources */ = {isa = PBXBuildFile; fileRef = BE0BEA841A026FD800EFAA53 /* Alien.atlas */; };
 		BE0BEA871A02759900EFAA53 /* AlienAnimations.plist in Resources */ = {isa = PBXBuildFile; fileRef = BE0BEA861A02759900EFAA53 /* AlienAnimations.plist */; };
 		BE0BEA8B1A027CD600EFAA53 /* Alien.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0BEA8A1A027CD600EFAA53 /* Alien.m */; };
+		BE0BEA8E1A0286E500EFAA53 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BE0BEA8C1A0286E500EFAA53 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 		BE0BEA861A02759900EFAA53 /* AlienAnimations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AlienAnimations.plist; sourceTree = "<group>"; };
 		BE0BEA891A027CD600EFAA53 /* Alien.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alien.h; sourceTree = "<group>"; };
 		BE0BEA8A1A027CD600EFAA53 /* Alien.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alien.m; sourceTree = "<group>"; };
+		BE0BEA8C1A0286E500EFAA53 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BE0BEA8D1A0286E500EFAA53 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,8 @@
 		BE0BEA581A026FBB00EFAA53 /* AlienWalkChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				BE0BEA8C1A0286E500EFAA53 /* LICENSE */,
+				BE0BEA8D1A0286E500EFAA53 /* README.md */,
 				BE0BEA881A02759F00EFAA53 /* Resources */,
 				BE0BEA841A026FD800EFAA53 /* Alien.atlas */,
 				BE0BEA5D1A026FBB00EFAA53 /* AppDelegate.h */,
@@ -229,6 +234,7 @@
 				BE0BEA6F1A026FBB00EFAA53 /* LaunchScreen.xib in Resources */,
 				BE0BEA6C1A026FBB00EFAA53 /* Images.xcassets in Resources */,
 				BE0BEA641A026FBB00EFAA53 /* GameScene.sks in Resources */,
+				BE0BEA8E1A0286E500EFAA53 /* LICENSE in Resources */,
 				BE0BEA871A02759900EFAA53 /* AlienAnimations.plist in Resources */,
 				BE0BEA6A1A026FBB00EFAA53 /* Main.storyboard in Resources */,
 				BE0BEA851A026FD800EFAA53 /* Alien.atlas in Resources */,
