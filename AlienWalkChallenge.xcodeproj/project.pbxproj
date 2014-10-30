@@ -17,8 +17,6 @@
 		BE0BEA6F1A026FBB00EFAA53 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE0BEA6D1A026FBB00EFAA53 /* LaunchScreen.xib */; };
 		BE0BEA7B1A026FBB00EFAA53 /* AlienWalkChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0BEA7A1A026FBB00EFAA53 /* AlienWalkChallengeTests.m */; };
 		BE0BEA851A026FD800EFAA53 /* Alien.atlas in Resources */ = {isa = PBXBuildFile; fileRef = BE0BEA841A026FD800EFAA53 /* Alien.atlas */; };
-		BE0BEA871A02759900EFAA53 /* AlienAnimations.plist in Resources */ = {isa = PBXBuildFile; fileRef = BE0BEA861A02759900EFAA53 /* AlienAnimations.plist */; };
-		BE0BEA8B1A027CD600EFAA53 /* Alien.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0BEA8A1A027CD600EFAA53 /* Alien.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,9 +47,6 @@
 		BE0BEA791A026FBB00EFAA53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE0BEA7A1A026FBB00EFAA53 /* AlienWalkChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlienWalkChallengeTests.m; sourceTree = "<group>"; };
 		BE0BEA841A026FD800EFAA53 /* Alien.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Alien.atlas; sourceTree = "<group>"; };
-		BE0BEA861A02759900EFAA53 /* AlienAnimations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AlienAnimations.plist; sourceTree = "<group>"; };
-		BE0BEA891A027CD600EFAA53 /* Alien.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alien.h; sourceTree = "<group>"; };
-		BE0BEA8A1A027CD600EFAA53 /* Alien.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alien.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +88,6 @@
 		BE0BEA581A026FBB00EFAA53 /* AlienWalkChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				BE0BEA881A02759F00EFAA53 /* Resources */,
 				BE0BEA841A026FD800EFAA53 /* Alien.atlas */,
 				BE0BEA5D1A026FBB00EFAA53 /* AppDelegate.h */,
 				BE0BEA5E1A026FBB00EFAA53 /* AppDelegate.m */,
@@ -103,8 +97,6 @@
 				BE0BEA651A026FBB00EFAA53 /* GameViewController.h */,
 				BE0BEA661A026FBB00EFAA53 /* GameViewController.m */,
 				BE0BEA681A026FBB00EFAA53 /* Main.storyboard */,
-				BE0BEA891A027CD600EFAA53 /* Alien.h */,
-				BE0BEA8A1A027CD600EFAA53 /* Alien.m */,
 				BE0BEA6B1A026FBB00EFAA53 /* Images.xcassets */,
 				BE0BEA6D1A026FBB00EFAA53 /* LaunchScreen.xib */,
 				BE0BEA591A026FBB00EFAA53 /* Supporting Files */,
@@ -136,14 +128,6 @@
 				BE0BEA791A026FBB00EFAA53 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		BE0BEA881A02759F00EFAA53 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				BE0BEA861A02759900EFAA53 /* AlienAnimations.plist */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,7 +213,6 @@
 				BE0BEA6F1A026FBB00EFAA53 /* LaunchScreen.xib in Resources */,
 				BE0BEA6C1A026FBB00EFAA53 /* Images.xcassets in Resources */,
 				BE0BEA641A026FBB00EFAA53 /* GameScene.sks in Resources */,
-				BE0BEA871A02759900EFAA53 /* AlienAnimations.plist in Resources */,
 				BE0BEA6A1A026FBB00EFAA53 /* Main.storyboard in Resources */,
 				BE0BEA851A026FD800EFAA53 /* Alien.atlas in Resources */,
 			);
@@ -249,7 +232,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE0BEA8B1A027CD600EFAA53 /* Alien.m in Sources */,
 				BE0BEA671A026FBB00EFAA53 /* GameViewController.m in Sources */,
 				BE0BEA5F1A026FBB00EFAA53 /* AppDelegate.m in Sources */,
 				BE0BEA621A026FBB00EFAA53 /* GameScene.m in Sources */,
