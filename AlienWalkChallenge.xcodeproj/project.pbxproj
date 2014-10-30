@@ -103,11 +103,11 @@
 				BE0BEA651A026FBB00EFAA53 /* GameViewController.h */,
 				BE0BEA661A026FBB00EFAA53 /* GameViewController.m */,
 				BE0BEA681A026FBB00EFAA53 /* Main.storyboard */,
+				BE0BEA891A027CD600EFAA53 /* Alien.h */,
+				BE0BEA8A1A027CD600EFAA53 /* Alien.m */,
 				BE0BEA6B1A026FBB00EFAA53 /* Images.xcassets */,
 				BE0BEA6D1A026FBB00EFAA53 /* LaunchScreen.xib */,
 				BE0BEA591A026FBB00EFAA53 /* Supporting Files */,
-				BE0BEA891A027CD600EFAA53 /* Alien.h */,
-				BE0BEA8A1A027CD600EFAA53 /* Alien.m */,
 			);
 			path = AlienWalkChallenge;
 			sourceTree = "<group>";
@@ -444,6 +444,7 @@
 				BE0BEA801A026FBB00EFAA53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE0BEA811A026FBB00EFAA53 /* Build configuration list for PBXNativeTarget "AlienWalkChallengeTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +453,7 @@
 				BE0BEA831A026FBB00EFAA53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

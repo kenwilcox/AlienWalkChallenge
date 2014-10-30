@@ -23,7 +23,7 @@
   NSString *path = [[NSBundle mainBundle] pathForResource:@"AlienAnimations" ofType:@"plist"];
   NSDictionary *animations = [NSDictionary dictionaryWithContentsOfFile:path];
   for (NSString *key in animations) {
-    [self.alienAnimations addObject:[self animationFromArray:[animations objectForKey:key] withDuration:0.4]];
+    [self.alienAnimations addObject:[self animationFromArray:animations[key] withDuration:0.4]];
   }
   
   [self setIsWalking:YES];
